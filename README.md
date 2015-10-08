@@ -1,8 +1,10 @@
 # calculator-api-challenge
 
+FECHA:
+
 El desafío consiste en realizar una aplicación web que funcione como calculadora. Se permite el uso de cualquier lenguaje y framework de programación. 
 
-La idea es que cada participante pueda explicar brevemente como hizo su aplicación, nos demuestre las bondades de su lenguaje y su framework.
+La idea es que cada participante pueda explicar brevemente como hizo su aplicación, nos demuestre las bondades de su elección.
 
 ## Condiciones del programa:
 * La petición debe ser con el método POST
@@ -13,7 +15,7 @@ La idea es que cada participante pueda explicar brevemente como hizo su aplicaci
 * En caso de que haya algún error que resulte imposible realizar el cálculo se debe entregar un "null"
 
 ## Ejemplos 1:
-    (Ojo que no escapo algunos caracteres, para que sea más fácil de entender el ejemplo)
+    (Ojo que no escapo los carácteres, para que sea más fácil de entender el ejemplo)
 
 Entrada:  localhost:8888/?query={op:'+',ops:[1.1,2.2,3.3]}
 
@@ -42,7 +44,6 @@ Se debe crear un proyecto en github con:
 
 Vamos a realizar pruebas automatizadas con Jmeter para ver cual es el framework que tiene mejor desempeño.
 
-FECHAS:
 
 Si estás interesado en participar por favor avísanos que lenguaje y que framework planeas usar.
 
