@@ -1,37 +1,8 @@
 # calculator-api-challenge
 
-El objetivo de este repositorio es recopilar diferentes soluciones para un mismo desafío, como implementar una API calculadora en diferentes lenguajes o frameworks.
-
-## Especificaciones
-
-* Debe aceptar las consultas por POST con la siguiente estructura
-
-    {
-        operation:"+-*/",
-        numbers:[...]
-    }
-
-
-* Debe retorna un JSON con la siguientes estructura
-
-    {
-        result:"..."
-    }
-
-
-
-Si alguien quiere agregar una alternativa puede hacer un pull request con el enlace al repo donde esta su solución.
-
-## Soluciones
-
-
-
-
-
-# calculator-api-challenge
-
 El desafío consiste en realizar una aplicación web que funcione como calculadora. Se permite el uso de cualquier lenguaje y framework de programación. 
 
+La idea es que cada participante pueda explicar brevemente como hizo su aplicación, nos demuestre las bondades de su lenguaje y su framework.
 
 ## Condiciones del programa:
 * La petición debe ser con el método POST
@@ -41,48 +12,39 @@ El desafío consiste en realizar una aplicación web que funcione como calculado
     * ops: valores, son un arreglo de cualquier largo, de número "float"
 * En caso de que haya algún error que resulte imposible realizar el cálculo se debe entregar un "null"
 
-## Ejemplos:
-
-### Ejemplo 1:
+## Ejemplos 1:
     (Ojo que no escapo algunos caracteres, para que sea más fácil de entender el ejemplo)
 
-#### Entrada:
+Entrada:  localhost:8888/?query={op:'+',ops:[1.1,2.2,3.3]}
 
-        localhost:8888/?query={op:'+',ops:[1.1,2.2,3.3]}
-#### Cálculo:
+Cálculo:  1.1+2.2+3.3
 
-        1.1+2.2+3.3
+Salida:  6.66
 
+## Ejemplo 2:
 
-#### Salida:
+Entrada: localhost:8888/?query={op:'/',ops:[1.1,2.2,3.3]}
 
-        6.66
-
-
-    Ejemplo 2:
-
-    Entrada:
-
-        localhost:8888/?query={op:'/',ops:[1.1,2.2,3.3]}
+Cálculo: 1.1/2.2/3.3
+ 
+Salida:  0.1515
 
 
-    Cálculo:
-
-        1.1/2.2/3.3
-
-
-    Salida:
-
-        0.1515
-
-
-Entregable:
+## Entregable:
 
 Se debe crear un proyecto en github con:
 
-    El código de la aplicación
-    Un dockerfile con todo lo necesario para que corra la aplicación. (En este punto podemos ayudar para que no sea tan dificil)
+* El código de la aplicación
+* Un dockerfile con todo lo necesario para que corra la aplicación. 
+  * En este punto podemos ayudar a aquellos que no tengan la experiencia en docker.
 
-Prueba:
+## Pruebas del Desafío:
 
 Vamos a realizar pruebas automatizadas con Jmeter para ver cual es el framework que tiene mejor desempeño.
+
+FECHAS:
+
+Si estás interesado en participar por favor avísanos que lenguaje y que framework planeas usar.
+
+Suerte y que gane el mejor lenguaje!
+
