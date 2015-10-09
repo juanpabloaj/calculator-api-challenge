@@ -40,6 +40,12 @@ Se debe crear un proyecto en github con:
 * Un dockerfile con todo lo necesario para que corra la aplicación. 
   * En este punto podemos ayudar a aquellos que no tengan la experiencia en docker.
 
+### Dockerfile
+
+El archivo dockerfile debe tener como base a debian jessie, osea la primera linea debe tener
+
+    FROM buildpack-deps:jessie
+
 ## Pruebas del Desafío:
 
 Vamos a realizar pruebas automatizadas con Jmeter para ver cual es el framework que tiene mejor desempeño.
