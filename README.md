@@ -55,3 +55,6 @@ Si estás interesado en participar por favor avísanos que lenguaje y que framew
 
 Suerte y que gane el mejor lenguaje!
 
+## Soluciones
+
+[jriquelme - go](https://github.com/jriquelme/calculator-api-challenge-go)
