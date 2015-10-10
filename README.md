@@ -57,4 +57,5 @@ Suerte y que gane el mejor lenguaje!
 
 ## Soluciones
 
-[Jorge Riquelme - go](https://github.com/jriquelme/calculator-api-challenge-go)
+* [Jorge Riquelme - go](https://github.com/jriquelme/calculator-api-challenge-go)
+* [Juan Pablo Abarzua - nodejs/express ](https://github.com/juanpabloaj/express-calculator-api)
