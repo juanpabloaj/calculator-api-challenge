@@ -28,9 +28,16 @@ Salida:  6.66
 Entrada: localhost:8888/?query={op:'/',ops:[1.1,2.2,3.3]}
 
 Cálculo: 1.1/2.2/3.3
- 
+
 Salida:  0.1515
 
+## Ejemplo curl
+
+    curl --data-urlencode "query={\"op\": \"-\", \"ops\": [3, 1]}" http://localhost:8888
+
+Salida
+
+    2
 
 ## Entregable:
 
