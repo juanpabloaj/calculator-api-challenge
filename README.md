@@ -1,18 +1,20 @@
 # calculator-api-challenge
 
-FECHA:
+Fecha de entrega: Martes 3 de Noviembre.
 
-El desafío consiste en realizar una aplicación web que funcione como calculadora. Se permite el uso de cualquier lenguaje y framework de programación. 
+El desafío consiste en realizar una API web que funcione como calculadora. Se permite el uso de cualquier lenguaje y framework de programación.
 
-La idea es que cada participante pueda explicar brevemente como hizo su aplicación, nos demuestre las bondades de su elección.
+La idea es que cada participante pueda explicar brevemente como hizo su aplicación y nos demuestre las bondades de su elección.
 
 ## Condiciones del programa:
-* La petición debe ser con el método POST
-* Debe responder en el puerto 8888
-* Debe tener un parámetro de entrada llamado "query" que debe ser un "json" con la siguiente estructura:
-    * op: operación, el contenido es un carácter que puede ser "+", "-", "*" y "/"
-    * ops: valores, son un arreglo de cualquier largo, de número "float"
-* En caso de que haya algún error que resulte imposible realizar el cálculo se debe entregar un "null"
+
+* Debe responder en el puerto 8888.
+* Debe aceptar requerimientos HTTP utilizando el método POST.
+* Los requerimientos deben tener el encabezado: `Content-Type: application/x-www-form-urlencoded`.
+* El cuerpo de cada requerimiento debe tener item llamado "query", cuyo valor debe ser un "json" con la siguiente estructura:
+    * op: operación, el contenido es un carácter que puede ser "+", "-", "*" y "/".
+    * ops: operadores, son un arreglo de cualquier largo, de número "float".
+* En caso de que ocurrir algún error, que haga imposible realizar el cálculo, se debe entregar un "null".
 
 ## Ejemplos 1:
     (Ojo que no escapo los carácteres, para que sea más fácil de entender el ejemplo)
@@ -43,8 +45,8 @@ Salida
 
 Se debe crear un proyecto en github con:
 
-* El código de la aplicación
-* Un dockerfile con todo lo necesario para que corra la aplicación. 
+* El código de la aplicación.
+* Un dockerfile con todo lo necesario para que corra la aplicación.
   * En este punto podemos ayudar a aquellos que no tengan la experiencia en docker.
 
 ### Dockerfile
@@ -56,7 +58,6 @@ El archivo dockerfile debe tener como base a debian jessie, osea la primera line
 ## Pruebas del Desafío:
 
 Vamos a realizar pruebas automatizadas con Jmeter para ver cual es el framework que tiene mejor desempeño.
-
 
 Si estás interesado en participar por favor avísanos que lenguaje y que framework planeas usar.
 
