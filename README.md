@@ -2,7 +2,7 @@
 
 FECHA:
 
-El desafío consiste en realizar una aplicación web que funcione como calculadora. Se permite el uso de cualquier lenguaje y framework de programación. 
+El desafío consiste en realizar una aplicación web que funcione como calculadora. Se permite el uso de cualquier lenguaje y framework de programación.
 
 La idea es que cada participante pueda explicar brevemente como hizo su aplicación, nos demuestre las bondades de su elección.
 
@@ -44,7 +44,7 @@ Salida
 Se debe crear un proyecto en github con:
 
 * El código de la aplicación
-* Un dockerfile con todo lo necesario para que corra la aplicación. 
+* Un dockerfile con todo lo necesario para que corra la aplicación.
   * En este punto podemos ayudar a aquellos que no tengan la experiencia en docker.
 
 ### Dockerfile
@@ -67,3 +67,4 @@ Suerte y que gane el mejor lenguaje!
 * [Jorge Riquelme - go](https://github.com/jriquelme/calculator-api-challenge-go)
 * [Juan Pablo Abarzua - nodejs/express ](https://github.com/juanpabloaj/express-calculator-api)
 * [Yolier Galan Tasse - nodejs/total.js](https://github.com/gallegogt/totaljs-calculator-api.git)
+* [Cristóbal Ganter - python/tornado](https://github.com/cganterh/tornado_calculator_api)
