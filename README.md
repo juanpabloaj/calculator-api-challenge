@@ -39,11 +39,10 @@ Salida:  0.1515
 
 ## Ejemplo curl
 
-    curl --data-urlencode "query={\"op\": \"-\", \"ops\": [3, 1]}" http://localhost:8888
-
-Salida
-
-    2
+    En la carpeta *curl-tests* hay algunos archivos .sh que contienen cada uno
+    una simple instrucción llamando al comando **curl**. Algunas pruebas basicas
+    que solo requieren un terminal y la aplicación para ser ejecutadas (solo han
+    sido probadas en Ruby on Rails).
 
 ## Entregable:
 
@@ -73,3 +72,4 @@ Suerte y que gane el mejor lenguaje!
 * [Juan Pablo Abarzua - nodejs/express ](https://github.com/juanpabloaj/express-calculator-api)
 * [Yolier Galan Tasse - nodejs/total.js](https://github.com/gallegogt/totaljs-calculator-api.git)
 * [Cristóbal Ganter - python/tornado](https://github.com/cganterh/tornado_calculator_api)
+* [Karl Heitmann - ruby on rails](https://github.com/KarlHeitmann/calculadora-challenge)
