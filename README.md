@@ -39,6 +39,8 @@ Salida:  0.1515
 
 ## Ejemplos `curl`
 
+    curl --data-urlencode "query={\"op\": \"-\", \"ops\": [3, 1]}" http://localhost:8888
+
 En la carpeta *curl-tests* hay algunos archivos .sh que contienen cada uno
 una simple instrucción llamando al comando **curl**. Algunas pruebas basicas
 que solo requieren un terminal y la aplicación para ser ejecutadas.
