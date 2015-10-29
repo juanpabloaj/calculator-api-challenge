@@ -72,5 +72,6 @@ Suerte y que gane el mejor lenguaje!
 * [Jorge Riquelme - go](https://github.com/jriquelme/calculator-api-challenge-go)
 * [Juan Pablo Abarzua - nodejs/express ](https://github.com/juanpabloaj/express-calculator-api)
 * [Yolier Galan Tasse - nodejs/total.js](https://github.com/gallegogt/totaljs-calculator-api.git)
+* [Yolier Galan Tasse - C/C++/Lwan/JsonPack](https://github.com/gallegogt/lwan-calculator-api.git)
 * [Cristóbal Ganter - python/tornado](https://github.com/cganterh/tornado_calculator_api)
 * [Cristián Serpell - python/tornado](https://github.com/cserpell/calculator-api-challenge)
