@@ -39,9 +39,9 @@ Salida:  0.1515
 
 ## Ejemplos `curl`
 
-    En la carpeta *curl-tests* hay algunos archivos .sh que contienen cada uno
-    una simple instrucción llamando al comando **curl**. Algunas pruebas basicas
-    que solo requieren un terminal y la aplicación para ser ejecutadas.
+En la carpeta *curl-tests* hay algunos archivos .sh que contienen cada uno
+una simple instrucción llamando al comando **curl**. Algunas pruebas basicas
+que solo requieren un terminal y la aplicación para ser ejecutadas.
 
 ## Entregable:
 
