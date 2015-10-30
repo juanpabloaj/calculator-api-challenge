@@ -67,6 +67,12 @@ Si estás interesado en participar por favor avísanos que lenguaje y que framew
 
 Suerte y que gane el mejor lenguaje!
 
+## jmeter
+
+Para probar la solución puedes usar jmeter y el archivo test-jmeter.jmx de este repositorio
+
+    jmeter -n -t test-jmeter.jmx
+
 ## Soluciones
 
 * [Jorge Riquelme - go](https://github.com/jriquelme/calculator-api-challenge-go)
