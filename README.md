@@ -82,3 +82,4 @@ Para probar la solución puedes usar jmeter y el archivo test-jmeter.jmx de este
 * [Cristóbal Ganter - python/tornado](https://github.com/cganterh/tornado_calculator_api)
 * [Cristián Serpell - python/tornado](https://github.com/cserpell/calculator-api-challenge)
 * [Karl Heitmann - ruby on rails](https://github.com/KarlHeitmann/calculadora-challenge)
+* [Benjamín Almarza - java/spring](https://github.com/troncador/calculator-api-challenge-spring-java)
